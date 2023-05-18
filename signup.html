@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Sign up to StatHead</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/dwd5bcg.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body> 
+        <div class="bar">
+            <div class="test">
+            </div>
+            <a href="index.html"><img src="https://i.ibb.co/rmQvn7W/Stat-Head-1.png" height="50px"></a>
+            <div class="test">
+            </div>
+        </div>
+        <div class="page">
+            <div class="c1">
+                <div class="graphic">
+                    <img src="https://i.ibb.co/SmTYNMY/imageedit-31-3262259946.png" height="300px" width="300px" style="filter:blur(0.5px)">
+                </div>
+                <div class="login" style="font-size : 40px; font-family: aileron, sans-serif;">
+                    <div class="logintitle">
+                        <h1 style="margin-top:-70px;margin-bottom: 0px;">Sign up</h1>
+                        <p style="font-size: 20px;">Already have an account? Log in <a id="hyper" class="hyper1" href="login.html">here.</a></p>
+                    </div>
+                    <form name="signup" class="loginform">
+                        <label for="username" style="font-size : 40px; font-family: aileron, sans-serif; margin-top: 0px;">Username<br></label>
+                        <input class="textinput" type="text" name="username" id="username" style="margin-top: 15px; margin-bottom:10px;" placeholder="Enter Username" required oninvalid="this.setCustomValidity('Please enter username')" oninput="this.setCustomValidity('')">
+                        <label for="password" style="font-size : 40px; font-family: aileron, sans-serif; margin-top: 5px;">Password</label>
+                        <input class="textinput" type="password" name="password" id="password" style="margin-top: 15px; margin-bottom:10px;" placeholder="Enter Password" required oninput="this.setCustomValidity('')">
+                        <label for="password" style="font-size : 40px; font-family: aileron, sans-serif; margin-top: 10px;">Confirm Password</label>
+                        <input class="textinput" type="password" name="confpassword" id="confpassword" style="margin-top: 15px; margin-bottom:-5px;" placeholder="Enter Password" required oninput="this.setCustomValidity('')"><br>
+                        <button type="submit" id="signUp">Get started →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

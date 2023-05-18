@@ -1,0 +1,199 @@
+@import url(“https://use.typekit.net/dwd5bcg.css”);
+
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+}
+
+.bar{
+    display:flex;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.c1{
+    display:flex;
+    background-color: white;
+    width: 1000px;
+    height: 500px;
+    z-index: 2000;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    justify-content: right;
+    align-items: center;
+}
+
+.c2{
+    display:flex;
+    width: 1000px;
+    height: 500px;
+    z-index: 2000;
+    border-radius: 27px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 36px;
+    padding-right: 36px;
+    line-height: 1.5;
+    color: white;
+    flex-direction: column;
+}
+
+
+.graphic{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/058/422/original/colorful-wave-abstract-background-free-vector.jpg");
+    background-position: left bottom;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+
+.login{
+    display:flex;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    align-items: center;
+    flex-direction: column;
+    transform: scale(0.7);
+}
+
+.logintitle{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginform{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textinput{
+    font-size: 20px;
+    border-width: 5px;
+    border-radius: 30px;
+    width: 480px;
+    height: 40px;
+    padding-top: 2px;
+    padding-left: 20px;
+    outline: none;
+}
+
+#signUp{
+    font-size: 20px;
+    background-image: linear-gradient(90deg, rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 480px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+#signUp2{
+    font-size: 20px;
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: #ff7300;
+    border: none;
+    border-radius: 70px;
+    width: 400px;
+    height: 80px;
+    padding-left: 50px;
+}
+
+Button{
+    Transition: .3s ease-in-out;
+}
+    
+Button:hover{
+    transform: scale(1.2);
+}
+
+.test{
+    display: flex;
+    width:100%;
+    height:125px;
+    background-color: white;
+    margin-top:0;
+    font-family: aileron,sans-serif;
+    font-weight: bold;
+    font-size : 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.tabs{
+    background: -webkit-linear-gradient(00deg,rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.hyper1{
+    background: -webkit-linear-gradient(0deg,rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.hyper2{
+    background: -webkit-linear-gradient(180deg,rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+#signUp{
+    font-size: 20px;
+    background-image: linear-gradient(90deg, rgba(255,115,0,1) 0%, rgba(255,115,0,1) 26%, rgba(255,0,164,1) 100%);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 480px;
+    height: 50px;
+    padding-left: 20px;
+}
